@@ -1,0 +1,91 @@
+.more-info-section {
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+  align-items: center;
+}
+
+.more-imfo-icon {
+  position: relative;
+  display: flex;
+}
+.more-info-box {
+  background: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  border-radius: 10px;
+  width: 290px;
+  cursor: pointer;
+}
+.more-info-section {
+  background: #BE0006;
+  padding: 40px;
+  margin-top: 60px;
+}
+.new-lounch-btn button {
+  background: #BE0006;
+  border: 2px solid #BE0006;
+  color: white;
+  padding: 10px 50px;
+  border-radius: 5px;
+  margin-top: 40px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.bi.bi-fire {
+  padding: 10px 12px;
+  background: rgb(190, 0, 6);
+  border-radius: 50%;
+  color: white;
+  font-size: 24px;
+}
+
+.more-info-title {
+  margin-top: 15px;
+}
+.more-info-subheading {
+  margin-bottom: 10px;
+}
+.more-info-title.active {
+  color: rgb(190, 0, 6);
+  font-size: 14px;
+}
+
+.info-icon {
+  padding: 10px 13px;
+  background: #3C4852;
+  border-radius: 50%;
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+  transition: color 0.3s ease-in-out;
+}
+
+.more-info-title {
+  font-size: 14px;
+  color: #3C4852;
+}
+.more-info-box:hover .more-info-title {
+  color: rgb(190, 0, 6);
+}
+.more-info-box:hover  .info-icon {
+  background: rgb(190, 0, 6);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

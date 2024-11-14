@@ -1,0 +1,134 @@
+.new-lounches {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.new-lounches-inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  margin-top: 20px;
+}
+
+.new-lounches-card.card {
+    width: 48%;
+    padding-bottom: 22px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+
+.card-image {
+  width: 100%;
+  height: auto;
+}
+.card-content {
+    padding: 0px 25px;
+  }
+.card-content-inner {
+    background: white;
+    padding: 10px 24px;
+  }
+
+  .card-content-inner {
+    background: white;
+    padding: 10px 24px;
+    border-radius: 4px;
+    margin-top: -25px;
+    position: relative;
+  }
+  .card-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px 0px;
+    align-items: center;
+  }
+
+  .social-icons {
+    display: flex;
+    gap: 18px;
+    color: rgb(125, 107, 125);
+    font-size: 16px;
+  }
+
+  .share-save-icons {
+    display: flex;
+    gap: 15px;
+  }
+
+  .share-save-icon {
+    background: rgb(239, 239, 239);
+    padding: 10px 12px;
+    border-radius: 200px;
+    font-size: 18px;
+  }
+
+  .card-heading h2 {
+    font-size: 16px;
+    margin-bottom: 14px;
+    line-height: 20px;
+  }
+
+.card-detalis p {
+  font-size: 12px;
+
+}
+
+.card-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 18px;
+  }
+
+  .discover-button button {
+    background: none;
+    border: 1px solid #707070;
+    padding: 8px 14px;
+    border-radius: 3px;
+    color: #3d3d3d;
+    cursor: pointer;
+  }
+
+  .praying-hands {
+    display: flex;
+  }
+
+  .hand {
+    padding: 10px 9px;
+    background: rgb(239, 239, 239);
+    border-radius: 50%;
+  }
+
+  .new-lounches-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+
+
+  .new-lounch-btn button {
+    background: #BE0006;
+    border: 2px solid #BE0006;
+    color: white;
+    padding: 10px 50px;
+    border-radius: 5px;
+    margin-top: 40px;
+    font-size: 15px;
+    cursor: pointer;
+  }
+
+  .new-lounch-btn button:hover {
+    background: white;
+    color: #BE0006;
+  }
+
+
+  .discover-button button:hover {
+    background: #3d3d3d;
+    color: white;
+  }

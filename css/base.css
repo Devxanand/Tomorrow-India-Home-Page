@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/* main section  */
+.main{
+  background: rgb(245, 245, 245);
+}
+.section-heading {
+  font-size: 40px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.section-subheading {
+  font-size: 19px;
+  width: 50%;
+  text-align: center;
+  margin-bottom: 40px;
+  margin-top: -10px;
+}
+
+.card {
+  background: rgb(241, 241, 241);
+}
+button{
+  transition: background 0.3s ease-in-out, color 0.3s ease-in-out;
+}

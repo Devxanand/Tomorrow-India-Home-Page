@@ -1,0 +1,55 @@
+.influencer-item-grid {
+    display: flex;
+    gap: 30px;
+  }
+
+  .influencer-section-card {
+    display: flex;
+  }
+  .influencer-top {
+    display: flex;
+    justify-content: space-between;
+  }
+  .influencer-section {
+    position: relative;
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 60px;
+  }
+
+  .influencer-item-grid {
+    width: 90%;
+  }
+  .influencer-card-img {
+    display: flex;
+    width: 40%;
+  }
+  .influencer-card-content {
+    display: flex;
+    width: 60%;
+  }
+
+  .influencer-card-heading {
+    font-size: 10px;
+    margin: 12px 0px;
+  }
+  .influencer-card-detalis {
+    font-size: 12px;
+  }
+
+
+  .influencer-section .card-content-inner {
+    background: white;
+    padding: 10px 24px;
+    border-radius: 4px;
+    margin-top: 0px;
+    position: relative;
+    margin: 20px 0px 20px -70px;
+  }
+
+  .author-inside img {
+    width: 40px;
+  }

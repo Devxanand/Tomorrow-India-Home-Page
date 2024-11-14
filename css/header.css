@@ -1,0 +1,190 @@
+/* header  */
+.header {
+  display: flex;
+  justify-content: center;
+  box-shadow: 0 1px 1px #e5e5e5;
+}
+/* header-logo */
+.airbrain-logo img {
+  width: 90%;
+}
+.header-inner {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2px;
+  color: #575757;
+  width: 90%;
+}
+/* header-menu */
+.airbrain-menu {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.airbrain-menu a {
+  text-decoration: none;
+  color: #575757;
+}
+.airbrain-menu li {
+  list-style: none;
+}
+.airbrain-menu li {
+  font-size: 18px;
+}
+/* header-search-bar  */
+.airbrain-search-bar input {
+  width: 250px;
+  height: 36px;
+  border: none;
+  padding: 6px;
+  font-size: 14px;
+}
+input[type="search"]:focus {
+  outline: none;
+  border: none;
+  box-shadow: none;
+}
+.airbrain-sarch {
+  padding: 2px 20px 2px 20px;
+  border: 2px solid #989797;
+  border-radius: 6px;
+}
+.bi.bi-search.search-icon {
+  font-size: 18px;
+  color: gray;
+  cursor: pointer;
+}
+
+/* header-buttons  */
+.airbrain-contact-buttons {
+  display: flex;
+  gap: 13px;
+}
+.lounch-project-btn {
+  background: none;
+  border: 2px solid #be0006;
+  padding: 11px 20px 11px 20px;
+  border-radius: 5px;
+  color: #be0006;
+  font-size: 14px;
+  cursor: pointer;
+  /* transition: .3s; */
+}
+.lounch-project-btn:hover {
+  background: #be0006;
+  color: white;
+}
+.login-sighnup-button {
+  background: #be0006;
+  border: 2px solid #be0006;
+  padding: 11px 20px 11px 20px;
+  border-radius: 5px;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+  /* transition: .3s; */
+}
+.login-sighnup-button:hover {
+  background: white;
+  color: #be0006;
+}
+
+/* responsive */
+@media (min-width: 900px) {
+  .hide-desktop {
+    display: none;
+  }
+}
+@media (max-width: 1200px) {
+  .airbrain-search-bar input {
+    width: 200px;
+  }
+  .lounch-project-btn {
+    padding: 11px 15px 11px 15px;
+  }
+  .login-sighnup-button {
+    padding: 11px 15px 11px 15px;
+  }
+  .airbrain-menu {
+    gap: 15px;
+  }
+  .airbrain-menu li {
+    font-size: 16px;
+  }
+  .lounch-project-btn {
+    font-size: 13px;
+  }
+  .login-sighnup-button {
+    font-size: 13px;
+  }
+  .airbrain-search-bar input {
+    padding: 0px;
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 1080px) {
+  .airbrain-search-bar input {
+    width: 150px;
+  }
+  .lounch-project-btn {
+    font-size: 12px;
+  }
+  .lounch-project-btn {
+    padding: 8px 10px 8px 10px;
+  }
+  .login-sighnup-button {
+    font-size: 12px;
+  }
+  .login-sighnup-button {
+    padding: 8px 10px 8px 10px;
+  }
+  .airbrain-search-bar input {
+    height: 30px;
+  }
+  element {
+  }
+  .header-inner {
+    width: 95%;
+  }
+}
+@media (max-width: 900px) {
+  .airbrain-menu {
+    display: none;
+  }
+  .desktop-search-bar {
+    display: none;
+  }
+}
+
+@media (max-width: 900px) {
+  .header {
+    padding: 0px 16px 8px;
+  }
+  .airbrain-search-bar input {
+    width: 90%;
+  }
+  .bi.bi-list {
+    font-size: 26px;
+  }
+  .airbrain-contact-buttons {
+    display: none;
+  }
+  .header {
+    flex-direction: column;
+    padding: 5px 16px;
+  }
+  .airbrain-logo img {
+    width: 80%;
+  }
+  .bi.bi-person.hide-desktop {
+    font-size: 26px;
+  }
+  .airbrain-logo a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
