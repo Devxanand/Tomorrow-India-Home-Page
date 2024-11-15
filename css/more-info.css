@@ -22,13 +22,13 @@
   cursor: pointer;
 }
 .more-info-section {
-  background: #BE0006;
+  background: #be0006;
   padding: 40px;
   margin-top: 60px;
 }
 .new-lounch-btn button {
-  background: #BE0006;
-  border: 2px solid #BE0006;
+  background: #be0006;
+  border: 2px solid #be0006;
   color: white;
   padding: 10px 50px;
   border-radius: 5px;
@@ -58,7 +58,7 @@
 
 .info-icon {
   padding: 10px 13px;
-  background: #3C4852;
+  background: #3c4852;
   border-radius: 50%;
   color: white;
   font-size: 24px;
@@ -68,24 +68,31 @@
 
 .more-info-title {
   font-size: 14px;
-  color: #3C4852;
+  color: #3c4852;
 }
 .more-info-box:hover .more-info-title {
   color: rgb(190, 0, 6);
 }
-.more-info-box:hover  .info-icon {
+.more-info-box:hover .info-icon {
   background: rgb(190, 0, 6);
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
+@media (max-width: 782px) {
+  .more-info-section {
+    background: #be0006;
+    padding: 30px 0px;
+    margin-top: 30px;
+    margin-bottom: 23px;
+    display: flex;
+  flex-direction: column;
+  }
+  .more-info-box {
+    padding: 15px;
+    gap: 8px;
+    width: 80%;
+    flex-shrink: 0 !important;
+  }
+  .new-lounch-btn button {
+    margin-top: 28px !important;
+  }
+}

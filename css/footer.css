@@ -40,6 +40,7 @@ footer {
     border: none;
     font-size: 18px;
     width: 92%;
+    cursor: pointer;
   }
 
   .newsletter-bar {
@@ -189,4 +190,86 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+
+  @media(max-width:782px){
+    .footer-inner {
+      width: 90%;
+    }
+
+    .footer-top {
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column;
+      gap: 15px;
+    }
+    .newsletter-heading {
+      font-size: 16px;
+    }
+    .contributer-heading {
+      font-size: 16px;
+    }
+    .newsletter-bar {
+      padding: 8px 40px;
+    }
+    .newsletter-bar input {
+      font-size: 14px;
+    }
+    .bi.bi-arrow-right {
+      font-size: 23px;
+    }
+    .newsletter-section, .contributer-section {
+      width: 100%;
+    }
+    .contributer-inner {
+      gap: 10px;
+      padding-left: 10px;
+    }
+    .contributer-button button {
+      padding: 12px;
+      width: 70%;
+      font-size: 14px;
+    }
+
+    .footer-middle {
+      padding-top: 20px;
+      flex-direction: column;
+    }
+    .company-quick-links-section {
+      display: flex;
+      width: 100%;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      margin-left: 10px;
+    }
+    .company-quick-links {
+      margin-right: 29px;
+      margin-bottom: 16px;
+    }
+    .social-icon-quick-links-section {
+      width: 100%;
+    }
+    .social-quick-link-inner {
+      padding-left: 10px;
+    }
+    .social-icon-heading {
+      font-size: 12px;
+      line-height: 36px;
+    }
+    .policy-pages-links ul {
+      gap: 26px;
+      height: 100%;
+      margin-top: 10px;
+      width: 100%;
+    }
+    .policy-pages-links li {
+      font-size: 12px;
+    }
+    .policy-pages-links {
+      height: 50px;
+    }
+    .company-quick-links-heading {
+      font-size: 11px;
+      line-height: 23px;
+    }
   }

@@ -1,9 +1,9 @@
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function () {
     const swiper = new Swiper('.swiper-container-3', {
         loop: true,
-        slidesPerView: 1.8,  // Show one slide at a time
-        spaceBetween: 20,  // Space between slides
-        slidesPerGroup: 1,  // Scroll one slide at a time
+        slidesPerView: 1.8, // Default for larger screens
+        spaceBetween: 20, // Space between slides
+        slidesPerGroup: 1, // Scroll one slide at a time
         navigation: {
             nextEl: '.swiper-button-next',
             prevEl: '.swiper-button-prev',
@@ -11,6 +11,11 @@ document.addEventListener("DOMContentLoaded", function() {
         pagination: {
             el: '.video-swiper-pagination', // Pagination for navigation dots (if needed)
             clickable: true,
+        },
+        breakpoints: {
+            782: {
+                slidesPerView: 1.2, // Show 1.3 slides for screens <= 768px
+            },
         },
     });
 

@@ -175,3 +175,37 @@
     text-align: start;
     display: flex;
 }
+
+@media(max-width:782px){
+    .video-section {
+        height: auto;
+        margin-top: 50px;
+        flex-direction: column;
+        padding: 20px 0px;
+      }
+      .left-content {
+        width: 100%;
+        padding-right: 10px;
+    }
+    .left-content-inner {
+        width: 85%;
+      }
+      .left-content p {
+        font-size: 16px;
+        margin-bottom: 20px;
+        margin-top: 10px;
+      }
+      .video-section .swiper-container-3 {
+        width: 95%;
+        margin-top: 20px;
+      }
+      .video-text {
+        gap: 13px;
+        margin-left: 25px;
+        width: 92%;
+        margin-bottom: 15px;
+      }
+      .video-text p, .video-text h3 {
+        font-size: 12px;
+      }
+}

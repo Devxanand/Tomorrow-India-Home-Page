@@ -75,4 +75,25 @@
   .product-categories:hover {
     transform: scale(1.05); 
   }
+
+
+  /* responsive css  */
+
+  @media(max-width:782px){
+    .section-heading {
+      font-size: 28px;
+      margin-top: 0px;
+      margin-bottom: 15px;
+    }
+    .categories-grid {
+      gap: 10px;
+      width: 100%;
+    }
+    .categories-row {
+      gap: 10px;
+    }
+    .product-categories .categories-tittle {
+      font-size: 13px;
+    }
+  }
   

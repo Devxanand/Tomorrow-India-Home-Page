@@ -132,3 +132,25 @@
     background: #3d3d3d;
     color: white;
   }
+
+  @media(max-width:782px){
+    .new-lounches-inner {
+      width: 90%;
+    }
+    .section-subheading {
+      font-size: 14px;
+      width: 100%;
+    }
+    .section-subheading {
+      margin-bottom: 20px;
+    }
+    .new-lounches-card.card {
+      width: 100%;
+    }
+    .card-content {
+      padding: 0px 19px;
+    }
+    .new-lounch-btn button {
+      margin-top: 26px;
+    }
+  }
