@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function () {
         },
         breakpoints: {
             782: {
-                slidesPerView: 1.2, // Show 1.3 slides for screens <= 768px
+                slidesPerView: 1.8, // Show 1.3 slides for screens <= 768px
             },
         },
     });
